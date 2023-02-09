@@ -94,7 +94,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   padding-right: 240px;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
   width: 74%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -110,6 +110,8 @@ nav {
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
+  padding: 5px;
+  text-align: center;
 }
 
 .topnav a::before {
@@ -121,6 +123,7 @@ nav {
   bottom: -20%;
   width: 0%;
   transition: 0.5s;
+  
 }
 
 .topnav a:hover::before {
