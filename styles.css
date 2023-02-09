@@ -81,11 +81,13 @@ a:hover{
 }
 
 nav {
+
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   min-height: 9vh;
   background-color: #894028;
+  position: sticky;
 }
 
 .topnav {
